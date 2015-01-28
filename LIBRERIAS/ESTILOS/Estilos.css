@@ -1,0 +1,1134 @@
+@charset "utf-8";
+/* CSS Document */
+body{color:#006A00; font-weight:600;}
+
+.Ventana {
+	position: absolute;
+	width: 40%;
+	top: 5%;
+	left: 7%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	box-shadow: 0px 0px 10px #000;
+	border-radius: 10px;               /* para Opera */
+	-moz-border-radius: 10px;          /*para Firefox*/
+	-webkit-border-radius: 10px;       /*para Safari y Chrome*/
+	behavior: url(ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border: 1px solid #CCC;
+	display: none;
+	background: #063;
+	font-size: 90%;
+}
+.VentanaExamenLaboratorio {
+	position: absolute;
+	top: 5%;
+	left: 7%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	box-shadow: 0px 0px 10px #000;
+	border-radius: 10px;               /* para Opera */
+	-moz-border-radius: 10px;          /*para Firefox*/
+	-webkit-border-radius: 10px;       /*para Safari y Chrome*/
+	behavior: url(ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border: 1px solid #CCC;
+	display: none;
+	background: #063;
+	font-size: 90%;
+}
+
+.VentanaAsignar {
+	position: absolute;
+	width:auto;
+	top: 5%;
+	left: 7%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	box-shadow: 0px 0px 10px #000;
+	border-radius: 10px;               /* para Opera */
+	-moz-border-radius: 10px;          /*para Firefox*/
+	-webkit-border-radius: 10px;       /*para Safari y Chrome*/
+	behavior: url(ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border: 1px solid #CCC;
+	display: none;
+	background: #063;
+	font-size: 90%;
+}
+.VentanaTabs {
+	position: absolute;
+	width: 55%;
+	top: 5%;
+	left: 10%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	font-size: 11px;
+	box-shadow: 0px 0px 10px #000;
+	border-radius: 10px;               /* para Opera */
+	-moz-border-radius: 10px;          /*para Firefox*/
+	-webkit-border-radius: 10px;       /*para Safari y Chrome*/
+	behavior: url(ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border: 1px solid #CCC;
+	display: none;
+	background: #063;
+}
+.VentanaAtencion{
+	position: absolute;
+	width:33%;
+	top: 5%;
+	left: 5%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	box-shadow: 0px 0px 10px #000;
+	border-radius: 10px;               /* para Opera */
+	-moz-border-radius: 10px;          /*para Firefox*/
+	-webkit-border-radius: 10px;       /*para Safari y Chrome*/
+	behavior: url(ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border: 1px solid #CCC;
+	display: none;
+	background: #063;
+	font-size: 90%;
+	}
+.VentanaProtocolo{
+	position: absolute;
+	width:55%;
+	top: 5%;
+	left: 5%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	box-shadow: 0px 0px 10px #000;
+	border-radius: 10px;               /* para Opera */
+	-moz-border-radius: 10px;          /*para Firefox*/
+	-webkit-border-radius: 10px;       /*para Safari y Chrome*/
+	behavior: url(ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border: 1px solid #CCC;
+	display: none;
+	background: #063;
+	font-size: 90%;
+	}	
+.VentanaPermiso {
+	position:absolute;
+	top: 2%;
+	left:10%;
+	box-shadow: 0px 0px 10px #000;
+	border-radius: 10px;               /* para Opera */
+	-moz-border-radius: 10px;          /*para Firefox*/
+	-webkit-border-radius: 10px;       /*para Safari y Chrome*/
+	behavior: url(ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border: 1px solid #CCC;
+	display: none;
+	background: #063;
+	padding-bottom: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+}
+.color_fondo_menu {
+	background-color: #004A25;
+	box-shadow: 0px 2px 10px #999999;
+	background-image: url(../imagenes/titu1.png);
+	background-repeat: repeat;
+	background-position: center top;
+	height: 53px;
+	margin: 0px;
+}
+body {
+	margin: 0px;
+}
+.tabs{
+	width: 950px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	border-radius:5px;
+	}
+.tabs-nav li{
+	float: left;
+	padding: 5px;
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	background-image: url(../IMAGENES/fondo1.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-bottom: -4px;
+	margin-left: 1px;
+	}
+.tabs-nav li:hover{
+	text-decoration:none;
+	opacity:0.7;
+	}
+.tabs-nav li a{
+	text-decoration:none;
+	}
+.contenidoTab{
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	margin: 0px;
+	background-image: url(../IMAGENES/fondo1.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+	height: 405px;
+	background-color: #FFF;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	}
+img.fondo {
+	background-image: url(../IMAGENES/login.png);
+	min-height:100%;
+	min-width:1024;
+	width:100%;
+	height:auto;
+	position:fixed;
+	top:0px;
+	left:0;
+	z-index:-1;
+}
+.tablafija{
+	position: fixed;
+	top: 25%;
+	left: 35%;
+	right: 35%;
+	box-shadow: 0px 0px 10px #000;
+	border: 1px solid #CCC;
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	background-image: url(../IMAGENES/fondo1.png);
+	background-repeat: repeat-x;
+	background-color: #246C0B;
+	height: 320px;
+	width: 345px;
+	}
+.tituloventana{
+	float:left;
+	margin:0px;
+	padding-left:20px;
+	color:#FFF;
+	font-weight:bold;
+	font-size:14px;
+	size:50px;}
+.cerrar{
+	float: right;
+	margin: 0px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	}
+.cerrar:hover{opacity:0.7;}
+.BotonesMantenimiento{
+	height: auto;
+	text-align: center;
+	margin: 0px;
+	padding:0px;
+ }
+.aceptar{
+	background-image: url(../IMAGENES/aceptar.png);
+	}
+.entrar {
+	font-weight: bold;
+	color: #FFF;
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background-color: #030;
+	height: 35px;
+	width: 100px;
+	cursor:pointer;
+}
+.entrar:hover{opacity:0.7;}
+.mensajeError{
+	position: absolute;
+	top: 10%;
+	left: 15%;
+	box-shadow: 0px 0px 10px #FFF;
+	border-radius: 10px;               /* para Opera */
+	-moz-border-radius: 10px;          /*para Firefox*/
+	-webkit-border-radius: 10px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 10px;       /*para IE 8*/
+	-khtml-border-radius: 10px;
+	padding: 0px;
+	background-image: url(../IMAGENES/mensaje.jpg);
+	background-repeat: repeat;
+}
+.btnNuevo{
+	background-image: url(../IMAGENES/nuevo.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	width: 75px;
+	height: 30px;
+	padding: 0px;
+	cursor:pointer;
+	 }
+.btnNuevo:hover{opacity:0.7;}
+.btnNuevo2{
+	background-image: url(../IMAGENES/nuevo2.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	width: 75px;
+	height: 30px;
+	padding: 0px;
+	cursor:pointer;
+	 }
+.btnNuevo2:hover{opacity:0.7;}
+
+.btnGeneral{
+	background-image: url(../IMAGENES/btngeneral.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	padding: 5px;
+	cursor:pointer;}
+.btnGeneral:hover{opacity:0.7;}	
+.btnPlomo{
+	background-image: url(../IMAGENES/btnplomo.png);
+	border-radius: 10px;               /* para Opera */
+	-moz-border-radius: 10px;          /*para Firefox*/
+	-webkit-border-radius: 10px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 10px;       /*para IE 8*/
+	-khtml-border-radius: 10px;
+	color: #093;
+	font-weight:bold;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	padding: 5px;
+	cursor:pointer;}
+.btnPlomo:hover{opacity:0.7;}	
+.btnDeshabilitarNuevo{
+	background-image: url(../IMAGENES/nuevo.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	width: 67px;
+	height: 30px;
+	padding: 0px;
+	opacity:0.3;
+	}
+.btnDeshabilitarNuevo2{
+	background-image: url(../IMAGENES/nuevo2.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	width: 67px;
+	height: 30px;
+	padding: 0px;
+	opacity:0.3;
+	}
+
+.btnGrabar{
+	background-image: url(../IMAGENES/grabar.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	width: 67px;
+	height: 30px;
+	padding: 0px;
+	cursor:pointer;
+	 }
+.btnGrabar:hover{opacity:.7;}
+.btnGrabar2{
+	background-image: url(../IMAGENES/grabar2.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	width: 67px;
+	height: 30px;
+	padding: 0px;
+	cursor:pointer;
+	 }
+.btnGrabar2:hover{opacity:.7;}
+
+.btnDeshabilitarGrabar{
+	background-image: url(../IMAGENES/grabar.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	width: 67px;
+	height: 30px;
+	padding: 0px;
+	opacity:0.3;
+	}
+	.btnDeshabilitarGrabar2{
+	background-image: url(../IMAGENES/grabar2.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	width: 67px;
+	height: 30px;
+	padding: 0px;
+	opacity:0.3;
+	}
+.btnCancelar{
+	background-image: url(../IMAGENES/cancelar.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	width: 83px;
+	height: 30px;
+	padding: 0px;
+	cursor:pointer;
+	 }
+.btnCancelar:hover{opacity:.7;}
+.btnDeshabilitarCancelar{
+	background-image: url(../IMAGENES/cancelar.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	width: 83px;
+	height: 30px;
+	padding: 0px;
+	opacity:0.3;
+	}
+.btnCancelar2{
+	background-image: url(../IMAGENES/cancelar2.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	width: 83px;
+	height: 30px;
+	padding: 0px;
+	cursor:pointer;
+	 }
+.btnCancelar2:hover{opacity:.7;}
+.btnDeshabilitarCancelar2{
+	background-image: url(../IMAGENES/cancelar2.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	width: 83px;
+	height: 30px;
+	padding: 0px;
+	opacity:0.3;
+	}
+
+.btnBuscar{
+	background-image: url(../IMAGENES/buscar.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	width: 67px;
+	height: 30px;
+	padding: 0px;
+	cursor:pointer;
+	 }
+.btnBuscar:hover{opacity:.7;}
+.btnDeshabilitarBuscar{
+	background-image: url(../IMAGENES/buscar.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	width: 67px;
+	height: 30px;
+	padding: 0px;
+	opacity:0.3;
+	 }
+.btnBuscar2{
+	background-image: url(../IMAGENES/buscar2.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	width: 67px;
+	height: 30px;
+	padding: 0px;
+	cursor:pointer;
+	 }
+.btnBuscar2:hover{opacity:.7;}
+.btnDeshabilitarBuscar2{
+	background-image: url(../IMAGENES/buscar2.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	width: 67px;
+	height: 30px;
+	padding: 0px;
+	opacity:0.3;
+	 }
+
+.btnEliminar{
+	background-image: url(../IMAGENES/eliminar.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+	margin: 0px;
+	width: 83px;
+	height: 30px;
+	padding: 0px;
+	cursor:pointer;
+	 }
+.btnEliminar:hover{opacity:.7;}
+.btnDeshabilitarEliminar{
+	background-image: url(../IMAGENES/eliminar.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	width: 83px;
+	height: 30px;
+	padding: 0px;
+	opacity: 0.3;
+	 }
+.btnEliminar2{
+	background-image: url(../IMAGENES/eliminar2.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+	margin: 0px;
+	width: 83px;
+	height: 30px;
+	padding: 0px;
+	cursor:pointer;
+	 }
+.btnEliminar2:hover{opacity:.7;}
+.btnDeshabilitarEliminar2{
+	background-image: url(../IMAGENES/eliminar2.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 0px;
+	width: 83px;
+	height: 30px;
+	padding: 0px;
+	opacity: 0.3;
+	 }
+
+.btnSalir{
+	background-image: url(../IMAGENES/salir.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+	margin: 0px;
+	width: 70px;
+	height: 30px;
+	padding: 0px;
+	cursor:pointer;
+	 }
+.btnSalir:hover{opacity:.7;}
+.btnDeshabilitarSalir{
+	background-image: url(../IMAGENES/salir.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+	margin: 0px;
+	width: 70px;
+	height: 30px;
+	padding: 0px;
+	opacity:0.3;
+	 }
+.btnSalir2{
+	background-image: url(../IMAGENES/salir2.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+	margin: 0px;
+	width: 70px;
+	height: 30px;
+	padding: 0px;
+	cursor:pointer;
+	 }
+.btnSalir2:hover{opacity:.7;}
+.btnDeshabilitarSalir2{
+	background-image: url(../IMAGENES/salir2.png);
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+	margin: 0px;
+	width: 70px;
+	height: 30px;
+	padding: 0px;
+	opacity:0.3;
+	 }
+
+.Buscar {
+	position:absolute;
+	top: 10%;
+	left:10%;
+	background: #063;
+	box-shadow: 0px 0px 10px #000;
+	border-radius: 10px;               /* para Opera */
+	-moz-border-radius: 10px;          /*para Firefox*/
+	-webkit-border-radius: 10px;       /*para Safari y Chrome*/
+	behavior: url(ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border: 1px solid #CCC;
+	display: none;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+	padding: 5px;
+}
+.clear{
+	clear: both;
+	}
+.titulo{
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-style: italic;
+}
+.cTabla{
+	width: 100%;
+	height: auto;
+	margin:0px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	background-image: url(../IMAGENES/fondo1.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+	}
+.redon{
+	box-shadow:0px 0px 50px #FFF;
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	}	
+.cTablaTabs{
+	border: 1px solid #CCC;
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	background-image: url(../IMAGENES/fondo1.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	width: 99%;
+	height: 445px;
+	background-color: #FFF;
+	}
+.cTablaTabs2{
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	background-image: url(../IMAGENES/fondo1.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	width: 99%;
+	height: 405px;
+	background-color: #FFF;
+	}
+.contorno{
+	border: 1px solid #98CBCB;
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	margin: 0px;
+	padding:5px;
+	}
+.cajaTexto{
+	border: 1px solid #CAFFCA;
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	text-transform: uppercase;
+	}
+.cajaTexto:focus{
+	outline: none;
+   -webkit-box-shadow: 0 0 1px 1px #9F6;
+   -moz-box-shadow: 0 0 4px 1px #9F6, inset 0 0 4px rgba(0, 0, 0,0.2);
+   box-shadow: 0 0 4px 1px #9F6, inset 0 0 4px rgba(0, 0, 0, 0.2);
+   border-color: #030;
+	}	
+.cajaTexto1{
+	border: 1px solid #98CBCB;
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	background-color: #E6FFF2;
+	width: 20%;
+	}
+.cajaTexto1:focus{
+	outline: none;
+   -webkit-box-shadow: 0 0 1px 1px #9F6;
+   -moz-box-shadow: 0 0 4px 1px #9F6, inset 0 0 4px rgba(0, 0, 0,0.2);
+   box-shadow: 0 0 4px 1px #9F6, inset 0 0 4px rgba(0, 0, 0, 0.2);
+   border-color: #030;
+   background-color:#9F6;
+	}		
+.cajaTexto2{
+	margin: 0px;
+	padding: 0px;
+	width: 75%;
+	border: 1px solid #98CBCB;
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	background-color: #E6FFF2;
+	}
+.cajaTexto2:focus{
+	outline: none;
+   -webkit-box-shadow: 0 0 1px 1px #9F6;
+   -moz-box-shadow: 0 0 4px 1px #9F6, inset 0 0 4px rgba(0, 0, 0,0.2);
+   box-shadow: 0 0 4px 1px #9F6, inset 0 0 4px rgba(0, 0, 0, 0.2);
+   border-color: #030;
+   background-color:#9F6;
+	}	
+.cajaRegistrarPac{
+	margin: 0px;
+	padding: 0px;
+	width: 90%;
+	border: 1px solid #98CBCB;
+	border-radius: 5px;               /* para Opera */
+	-moz-border-radius: 5px;          /*para Firefox*/
+	-webkit-border-radius: 5px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 5px;       /*para IE 8*/
+	-khtml-border-radius: 5px;
+	background-color: #E6FFF2;
+	}	
+.combo{width:50%;border: 1px solid #98CBCB;background-color: #E6FFF2;}
+.izquierdaPermisos{
+	float: left;
+	height: 500px;
+	width: 200px;	
+	}
+.derechaPermisos{
+	float: right;
+	height: 500px;
+	width: 500px;	
+	}
+.ContornoPanel{
+	width:70%;
+	height:auto;
+	background:#030;
+	margin-top:1%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:1%;
+	padding:0px;
+	border: 1px solid #98CBCB;
+	border-radius: 10px;               /* para Opera */
+	-moz-border-radius: 10px;          /*para Firefox*/
+	-webkit-border-radius: 10px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 10px;       /*para IE 8*/
+	-khtml-border-radius: 10px;
+	box-shadow:0px 0px 50px #000;
+	}
+.Superior-Inferior{
+	width:100%;
+	margin:0 px;
+	padding:0 px;}
+.SuperiorIzquierda{
+	float: left;
+	color: #FFF;
+	font-weight: bold;
+	padding-left: 20px;
+	text-transform: uppercase;
+}
+.SuperiorDerecha{
+	float: right;
+	color: #FFF;
+	font-weight: bold;
+	padding-right: 20px;
+	text-transform: uppercase;
+	}
+.InferiorIzquierda{
+	float:left;
+	font-size:12px;
+	color:#FFF;
+	padding-left: 20px;
+	text-align:center;
+}
+.InferiorDerecha{
+	float:right;
+	font-size:12px;
+	color:#FFF;
+	padding-right: 20px;
+	text-align:center;
+}
+.CuerpoPanel{
+	width:auto;
+	height:auto;
+	margin:0%;
+	padding:1%;
+	background-image: url(../IMAGENES/fondo2.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	}
+fieldset {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	border: 1px solid #030;
+	border-radius: 12px;               /* para Opera */
+	-moz-border-radius: 12px;          /*para Firefox*/
+	-webkit-border-radius: 12px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 12px;       /*para IE 8*/
+	-khtml-border-radius: 12px;
+	text-transform: uppercase;
+	color: #030;
+	font-size: 90%;
+}
+.imagenTotal{
+	float: left;
+	width: 19%;
+	height: 15%;
+	margin-left:3%;
+	margin-right:2%;
+	margin-bottom:2.5%;
+	background: #FFF;
+	text-align:center;
+	cursor:pointer;}
+.opacidad{
+	width:auto;
+	padding:1px;
+	border: 2px solid #98CBCB;
+	border-radius: 10px;               /* para Opera */
+	-moz-border-radius: 10px;          /*para Firefox*/
+	-webkit-border-radius: 10px;       /*para Safari y Chrome*/
+	behavior: url(LIBRERIAS/ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 10px;       /*para IE 8*/
+	-khtml-border-radius: 10px;;}
+.opacidad:hover{opacity:0.7;}
+.principal{
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: 0px 0px 20px #000;
+	border-radius: 10px;               /* para Opera */
+	-moz-border-radius: 10px;          /*para Firefox*/
+	-webkit-border-radius: 10px;       /*para Safari y Chrome*/
+	behavior: url(ESTILOS/border.htc);  /* para IE */
+	-ms-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border: 1px solid #CCC;
+	}
